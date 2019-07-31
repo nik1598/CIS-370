@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+
+<!--
+
+    Filename: Contact_JhansiKesireddy.html
+
+    Page description: This is the contact page of my website. I used form, 
+    fieldset, and div elements to create a form that resembles the one we did
+    in class. Also used unordered list to insert social media information.
+
+-->
+
+    <meta charset="utf-8" />
+    <meta name="keywords" content="Jhansi Kesireddy, Travel, MSU, student" />
+    <meta name="viewport" content="width=device-width, initial-scale=2" />
+    <title> JHANSI KESIREDDY </title>
+    <link href="reset.css" rel="stylesheet" />
+    <link href="Common.css" rel="stylesheet" />
+    <link href="forms.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <header>
+        <img src="quote.jpg" alt="Cover photo" />
+
+        <nav>
+            <ul>
+                <li><a href="Myproject_JhansiKesireddy.html"><i style="font-size:18px" class="fa">&#xf015;</i></a> </li>
+                <li><a href="About_JhansiKesireddy.html"> About</a> </li>
+                <li><a href="Travel_JhansiKesireddy.html"> Travel</a> </li>
+                <li><a href="BucketList_JhansiKesireddy.html"> Bucket List</a> </li>
+                <li><a href="Calendar_JhansiKesireddy.html"> Calendar</a> </li>
+                <li><a href="Contact_JhansiKesireddy.html"> Contact</a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <article>
+        <h1> Say Hi! </h1>
+        <img src="contactme.png" alt="contactme" />
+
+        <!-- Used a web form code to create a way of contact -->
+
+        <form id="contact" action="http://www.example.com/webform" method="post">
+            <fieldset id="contactInfo">
+                <legend> Contact Information </legend>
+
+                <div class="formRow">
+                    <label for="name"> Name*: </label>
+                    <input name="contName" id="name" type="text" value="first and last name" required />
+                </div>
+
+                <div class="formRow">
+                    <label for="mail"> Email*: </label>
+                    <input name="contEmail" id="mail" type="email" required />
+                </div>
+
+                <div class="formRow">
+                    <label for="phone"> Phone number: </label>
+                    <input name="contPhone" id="phone" type="tel" placeholder="(nnn) nnn-nnnn" />
+                </div>
+
+            </fieldset>
+
+            <fieldset id="messageInfo">
+                <legend> Message Box </legend>
+
+                <div class="formRow">
+                    <label for="subj">Subject:</label>
+                    <input name="subject" id="subj" type="text" />
+                </div>
+
+                <label for="Box"> Please type your message here:</label>
+                <textarea name="mesBox" id="Box"></textarea>
+
+            </fieldset>
+
+            <div id="buttons">
+                <input type="submit" value="Submit Message" />
+                <input type="reset" value="Cancel" />
+            </div>
+        </form>
+
+        <h2> My social media handles: </h2>
+        <ul>
+            <li> Instagram: @hereisgina </li>
+            <li> Twitter: @HereIsGina </li>
+            <li> Facebook: Gina Rodriguez </li>
+        </ul>
+
+
+
+</article>
+
+	<footer>
+		Student at Missouri State University &#9830; 901 S National Ave Springfield, MO 65897 &#9830; 
+		Kesireddy15@missouristate.edu &#9830; 417-300-8000
+	</footer>
+
+</body>
+
+
+</html>

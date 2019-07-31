@@ -1,0 +1,71 @@
+﻿@charset "utf-8";
+
+@font-face {
+    font-family: font_sample;
+    src: url(Projectfont.woff) format('woff'), 
+         url(Projectfont.ttf) format('truetype');
+}
+
+/* HTML Styles */
+
+html {
+    background: url(background.jpg) no-repeat fixed;
+	background-size: cover;
+    font-family: font_sample, Verdana, Geneva, sans-serif;
+    height: 100%;
+}
+
+/* Page Body Styles */
+
+body {
+    background-color: rgb(255, 204, 153);
+    margin: auto;
+    width: 960px;
+    box-shadow: rgb(85, 115, 122) 20px 0px 40px, rgb(85, 115, 122) -20px 0px 40px;
+    overflow: auto;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+/* Page Header Styles */
+header > img {
+	display: block;
+	width: 100%;
+}
+
+header {
+    font-family: Algerian, Verdana, Verdana, Geneva, sans-serif;
+    font-size: 50px;
+    text-shadow: 2px 2px rgb(153, 51, 153);
+    text-align: center;
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+    word-spacing: 3px;
+}
+
+/* Article styles */
+
+div.gallery {
+	margin: 25px 25px 25px 100px;
+	float: left;
+}
+
+div.gallery img {
+    width: 10em;
+	height: 10em;
+	border-radius: 50%;
+}
+
+/* Footer styles */   
+
+footer {
+   color: white;    
+   background: rgb(126, 113, 147);  
+   height: 70px;
+   padding-top: 20px;
+   text-align: center;
+   font-size: 0.9em; 
+   width: 100%;
+}

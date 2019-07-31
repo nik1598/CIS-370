@@ -1,0 +1,25 @@
+﻿@charset "utf-8";
+
+
+/* Grid Rows Styles */
+div.row {
+    clear: both;
+    position: relative;
+    left: 150px;
+}
+
+div.row::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+
+/* Grid Columns Styles */
+div[class^="col-"] {
+    float: left;
+}
+
+div.col-1-2 {width: 50%;}
+
+/* Grid Outline Styles */
